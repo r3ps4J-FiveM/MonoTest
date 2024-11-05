@@ -1,6 +1,6 @@
 ﻿using CitizenFX.Core;
 
-namespace MonoTest.Server;
+namespace Server;
 
 public class ServerMain: BaseScript
 {

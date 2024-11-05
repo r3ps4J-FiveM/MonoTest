@@ -1,8 +1,8 @@
-﻿using CitizenFX.Core;
+using CitizenFX.Core;
 using CitizenFX.FiveM;
 using CitizenFX.FiveM.Native;
 
-namespace MonoTest.Client;
+namespace Client;
 
 public class ClientMain: BaseScript
 {

@@ -4,8 +4,8 @@ mono_rt2 'Prerelease expiring 2023-06-30. See https://aka.cfx.re/mono-rt2-previe
 
 file 'Client/bin/Release/**/publish/*.dll'
 
-client_script 'Client/bin/Release/**/publish/MonoTest.Client.dll'
-server_script 'Server/bin/Release/**/publish/MonoTest.Server.dll'
+client_script 'Client/bin/Release/**/publish/*.net.dll'
+server_script 'Server/bin/Release/**/publish/*.net.dll'
 
 author 'You'
 version '1.0.0'

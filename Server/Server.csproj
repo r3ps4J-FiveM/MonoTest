@@ -1,10 +1,12 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net452</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <LangVersion>12</LangVersion>
+    <RootNamespace>Server</RootNamespace>
+    <AssemblyName>$(MSBuildProjectName).net</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>

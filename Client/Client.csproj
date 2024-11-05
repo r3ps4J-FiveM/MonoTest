@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net452</TargetFramework>
@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <LangVersion>12</LangVersion>
     <RootNamespace>Client</RootNamespace>
+    <AssemblyName>$(MSBuildProjectName).net</AssemblyName>
   </PropertyGroup>
 
   <ItemGroup>
