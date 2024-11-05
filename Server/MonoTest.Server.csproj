@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net452</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <LangVersion>12</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="CitizenFX.Core">
+      <HintPath>bin\CitizenFX.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="CitizenFX.Server">
+      <HintPath>bin\CitizenFX.Server.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
