@@ -1,4 +1,4 @@
-using CitizenFX.Core;
+﻿using CitizenFX.Core;
 using CitizenFX.FiveM;
 using CitizenFX.FiveM.Native;
 
@@ -16,8 +16,6 @@ public class ClientMain: BaseScript
     {
         Natives.DrawRect(0.5f, 0.5f, 0.5f, 0.5f, 255, 0, 0, 150);
         DrawHealth(0, 0);
-
-        await Yield();
     }
 
     private void DrawHealth(int x, int y)
